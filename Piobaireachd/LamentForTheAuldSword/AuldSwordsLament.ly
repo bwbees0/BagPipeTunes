@@ -4,7 +4,7 @@
 \include "bagpipe.ly" 
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/BWB_Bagpipe.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
-\include "/home/ben/workspace/GitHub_BagPipeTunes/LamentForTheAuldSword/voices.ly"
+\include "/home/ben/workspace/GitHub_BagPipeTunes/Piobaireachd/LamentForTheAuldSword/Auld-Sword-Lament-Voices.ly"
 
 filename = "~/AuldSwordsLament.ly"
 tunesetVersion = "Version 1"
@@ -25,28 +25,7 @@ source = "Kilberry Book of Ceol Mohr # 69"
         }    
 }
 
-#(define-bar-line "|.-b" "|." ".|" "|.") %This is for putting all parts in one score!
-%  #(define-bar-line ":|.-b" ":|." ".|:" ":|.") %This is for putting all parts in one score!
-#(define-bar-line ":|.-.|" ":|." ".|" "|." )    
-\defineBarLine "|.-.|:" #'("|." ".|:" "" ) %This rocks! This ends a repeated part and starts a non-repeated part.
 
-% define a variable that places a little x where a note would go in the staff. 
-
-
-
-% Cadence 'cad' is copied from bagpipe.ly and a fermata is added over the e to match the setting
-cad_eye      = { \pgrace { \stemspace #'(0 . 0.5) g32[ e8\fermata d32] } } 
-
-#(allow-volta-hook "||")
-#(allow-volta-hook "|")
-
-
-voltaTwice = \markup  { \hspace #20 \text \italic \fontsize #+5 { Play Twice }  }
-voltaLineTwoOnly = \markup { \hspace #15 \text \italic \fontsize #+5 { Line 2 Only } }
-voltaLineThreeOnly = \markup { \hspace #15 \text \italic \fontsize #+5 { Line 3 Only } }
-
-
-hiharin = { \grg e4 \dbirl a4 } 
 
 
 #(set-global-staff-size 14)
