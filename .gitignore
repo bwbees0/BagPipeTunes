@@ -3,6 +3,7 @@
 #
 # Add patterns to exclude Frescobaldi editor backup files   -->  *.ly~
 # and the generated pdf shell with no or incorrect content  -->  *-1.pdf
+# add midi files to the ignore list. 
 #
 # Ponder other patterns to add later.
 #
@@ -13,6 +14,10 @@
 # Generated pdf files that are not correct
 # 
 *-1.pdf
+#
+#
+*.midi
+#
 #
 # End for now.... 
 ###################
