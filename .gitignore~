@@ -1,0 +1,31 @@
+#
+# .gitignore -- update 29 May 17
+#
+# Add patterns to exclude Frescobaldi editor backup files   -->  *.ly~
+# and the generated pdf shell with no or incorrect content  -->  *-1.pdf
+# add midi files to the ignore list. 
+#
+# Ponder other patterns to add later.
+#
+# Editor backup files 
+#####################
+*.ly~
+#
+# Generated pdf files that we do not need
+# 
+*-1.pdf
+#
+#
+<<<<<<< HEAD
+*.midi
+#
+#
+=======
+# midi files
+*.midi
+#
+#
+#
+>>>>>>> 77b3331eed78ec64212282e105098797f29a30f2
+# End for now.... 
+###################

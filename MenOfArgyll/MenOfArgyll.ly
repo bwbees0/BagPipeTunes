@@ -152,7 +152,10 @@ MenOfArgyll =
           \MenOfArgyll
         }
       >>		
-    \layout { \ScoreLayout }
+    \layout { 
+              \ScoreLayout
+              %#(layout-set-staff-size 13)  
+            }
     \header{
       %piece = "Echo Lake "
       %opus = "Donald Macleod"
@@ -160,6 +163,8 @@ MenOfArgyll =
   }
   \paper {
     #(set-paper-size "letter" 'landscape)
+     page-breaking = #ly:one-page-breaking
+    %system-count = #10
   }
 }
 
