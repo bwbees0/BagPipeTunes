@@ -137,7 +137,7 @@ MenOfArgyll =
 % get the engraving in the Frescobaldi window on the right. 
 
 \book {
-  \bookOutputName "MenOfArgyll"   
+  \bookOutputName "MenOfArgyll-ASH"   
   \score {
     \new Staff <<
         \new Voice {
@@ -157,7 +157,7 @@ MenOfArgyll =
 }
 
 \book {
-  \bookOutputName "MenOfArgyll_Landscape"   
+  \bookOutputName "MenOfArgyll-ASH_Landscape"   
   \score {
     \new Staff <<
         \new Voice {
