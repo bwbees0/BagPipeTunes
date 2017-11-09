@@ -7,7 +7,7 @@
 
 filename = "~/MenOfArgyll-ASH.ly"
 tunesetVersion = "Version 1"
-source = "" 
+source = ""  %Argyll & Sutherland Highlanders
 
 %  Sources used are:  	Pipe Teacher's Asst, Vol 3 
 %			Argyll and Sutherland Highlanders pg 47
@@ -137,7 +137,7 @@ MenOfArgyll =
 % get the engraving in the Frescobaldi window on the right. 
 
 \book {
-  \bookOutputName "MenOfArgyll"   
+  \bookOutputName "MenOfArgyll-ASH"   
   \score {
     \new Staff <<
         \new Voice {
@@ -157,7 +157,7 @@ MenOfArgyll =
 }
 
 \book {
-  \bookOutputName "MenOfArgyll_Landscape"   
+  \bookOutputName "MenOfArgyll-ASH_Landscape"   
   \score {
     \new Staff <<
         \new Voice {
