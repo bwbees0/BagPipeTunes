@@ -11,13 +11,21 @@
 #####################
 *.ly~
 #
-# Generated pdf files that are not correct
+# Generated pdf files that we do not need 
 # 
 *-1.pdf
 #
 #
+<<<<<<< HEAD
 *.midi
 #
 #
+=======
+# midi files
+*.midi
+#
+#
+#
+>>>>>>> 77b3331eed78ec64212282e105098797f29a30f2
 # End for now.... 
 ###################
