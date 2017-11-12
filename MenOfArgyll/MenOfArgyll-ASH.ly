@@ -1,4 +1,4 @@
-\version "2.18"
+\version "2.19"
 
 \include "bagpipe.ly" 
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/BWB_Bagpipe.ly"
@@ -6,7 +6,7 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
 filename = "~/MenOfArgyll-ASH.ly"
-tunesetVersion = "Version 1"
+tunesetVersion = "Version 1b"
 source = ""  %Argyll & Sutherland Highlanders
 
 %  Sources used are:  	Pipe Teacher's Asst, Vol 3 
@@ -67,12 +67,13 @@ MenOfArgyll =
                    \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg c16. d32] |
                    \dble e8 [ \birl a8 ]  \dblc c8. [ d16 ] |
                    % fix timing so the volta at the end of the line works
-                   \set Timing.measurePosition = #(ly:make-moment 0 8 ) \dble e16. [ c32 \grg a16. \grd c32 ]                  
+                   \set Timing.measurePosition = #(ly:make-moment 0 8 ) \dble e16. [ c32 \grg a16. \grd c32 ] 
+                   \break % place the pick up on the next line just like the 2nd repeat
                  }
     \alternative {
                    { 
                      % fix timing so the volta at the end of the above line works
-                     \set Timing.measurePosition = #(ly:make-moment 6 8 ) \dble e8 [ \grg f16. g32 ] | \break                     
+                     \set Timing.measurePosition = #(ly:make-moment 6 8 ) \dble e8 [ \grg f16. g32 ] |                      
                      \dblA A8 [  d8 ] \dblf f8 [ e16. d32 ] |
                      \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg d16. e32 ] |
                      \dblf f16. [ e32 \grg f32 A16. ]  \hdblc c8. [ \gre a16 ] |

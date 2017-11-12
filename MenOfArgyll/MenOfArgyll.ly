@@ -1,4 +1,4 @@
-\version "2.18"
+\version "2.19"
 
 \include "bagpipe.ly" 
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/BWB_Bagpipe.ly"
@@ -67,12 +67,12 @@ MenOfArgyll =
                    \dblf f8 [ A8 ] \hdblf f8 [ \grg c16. d32] |
                    \dble e8 [ \grg a8 ]  \dblc c8. [ d16 ] |
                    % fix timing so the volta at the end of the line works
-                   \set Timing.measurePosition = #(ly:make-moment 0 8 ) \dble e16. [ c32 \grg a16. \grd c32 ] \dble e8 [                   
+                   \set Timing.measurePosition = #(ly:make-moment 0 8 ) \dble e16. [ c32 \grg a16. \grd c32 ] \break                    
                  }
     \alternative {
                    { 
                      % fix timing so the volta at the end of the above line works
-                     \set Timing.measurePosition = #(ly:make-moment 7 8 )\dblg g8 ] | \break                     
+                     \set Timing.measurePosition = #(ly:make-moment 6 8 )\dble e8 [ \dblg g8 ] |                
                      \dblA A8 [ \thrwd d8 ] \dblf f8 [ e32 \grg d16. ] |
                      \dblf f8 [ A8 ] \hdblf f8 [ \grg d16 e16 ] |
                      \grg f16. [ e32 \grg f32 A16. ]  \hdblc c8 [ \gre a8 ] |
@@ -80,7 +80,7 @@ MenOfArgyll =
                      \break
                    }
                    {
-                    \set Timing.measurePosition = #(ly:make-moment -1 8 ) \grg f16. [ e32] 
+                    \set Timing.measurePosition = #(ly:make-moment -2 8 ) \dble e8 [ \grg f16.  e32] |
                     \thrwd d8 [ \grg c16. d32] \dblb b8 [ \thrwd d16. e32 ] |
                     \dblf f8 [ A8 ] \hdblf f8 [ \grg d16. e32] |
                     \grg f16. [ e32 \grg f32 A16. ]  \hdblc c8 [ \gre a8 ] |
