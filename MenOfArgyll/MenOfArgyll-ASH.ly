@@ -6,7 +6,7 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
 filename = "~/MenOfArgyll-ASH.ly"
-tunesetVersion = "Version 1b"
+tunesetVersion = "Version 1c"
 source = ""  %Argyll & Sutherland Highlanders
 
 %  Sources used are:  	Pipe Teacher's Asst, Vol 3 
@@ -104,7 +104,7 @@ MenOfArgyll =
                 }
 \repeat volta 2 { 
                   \set Timing.measurePosition = #(ly:make-moment -1 8 ) \grg c32 [ e16. ] |
-                  \dblf f8 [ \slurb b8 ] \dblf f8. [ e16] |
+                  \dblf f8. [ \slurb b16 ] \dblf f8. [ e16] |
                   \dblf f16. [ e32 \grg f32 A16. ] \hdblf f8 [ e32 c16. ] |
                   \dble e8 [ \birl a8 ] \dble e8. [ f16 ] |
                   \grg e16. [ c32 \grg b32 \grd c16. ] \grg a16. [ b32 \grg c32 e16. ] |
