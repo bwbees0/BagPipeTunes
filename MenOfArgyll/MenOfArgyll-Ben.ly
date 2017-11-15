@@ -6,7 +6,7 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
 filename = "~/MenOfArgyll-Ben.ly"
-tunesetVersion = "Version 1"
+tunesetVersion = "Version 1b"
 source = ""  %Argyll & Sutherland Highlanders
 
 %  Sources used are:  	Pipe Teacher's Asst, Vol 3 
@@ -51,12 +51,12 @@ MenOfArgyll =
   \repeat volta 2 {                   
                    \set Timing.measurePosition = #(ly:make-moment -1 8 ) \grg f16. [ e32] |
                    \thrwd d8 [ \grg b8 ]  \taor b8 [ \thrwd d16. e32] |
-                   \grg f8 [ A8 ] \hdblf f8 [ \grg e16. d32] |
+                   \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg e16. d32] |
                    \dblc c8 [ \gre a8 ]  \wbirl a8. [ b16 ] |
                    \grg c32 [ \grd a16. \grg c16. d32 ]  \dble e8 [ \grg f16. e32] |
                    \break
                    \thrwd d8 [ \grg c16. d32] \dblb b8 [ \thrwd d16. e32 ] |
-                   \dblf f8 [ A8 ] \hdblf f8 [ \grg d16. e32] |
+                   \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg d16. e32] |
                    \grg f16. [ e32 \grg f32 A16. ]  \hdblc c8 [ \gre a8 ] |
                    \set Timing.measurePosition = #(ly:make-moment 1 8 ) \grg b4 \taor b8 | \bar ":|.-b"
                    \break
@@ -64,7 +64,7 @@ MenOfArgyll =
  \repeat volta 2 { 
                    \set Timing.measurePosition = #(ly:make-moment -1 8 ) \grg f16. [ g32 ]  |
                    \dblA A8 [ \thrwd d8 ]  \dblf f8 [ e16. \grg d32 ] |
-                   \grg f8 [ A8 ] \hdblf f8 [ \grg c16. d32] |
+                   \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg c16. d32] |
                    \dble e8 [ \birl a8 ]  \dblc c8. [ d16 ] |
                    % fix timing so the volta at the end of the line works
                    \set Timing.measurePosition = #(ly:make-moment 0 8 ) \dble e16. [ c32 \grg a16. \grd c32 ] 
@@ -75,7 +75,7 @@ MenOfArgyll =
                      % fix timing so the volta at the end of the above line works
                      \set Timing.measurePosition = #(ly:make-moment 6 8 ) \dble e8 [ \grg f16. g32 ] |                      
                      \dblA A8 [ \thrwd d8 ] \dblf f8 [ e16. d32 ] |
-                     \grg f8 [ A8 ] \hdblf f8 [ \grg d16. e32 ] |
+                     \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg d16. e32 ] |
                      \grg f16. [ e32 \grg f32 A16. ]  \hdblc c8 [ \gre a8 ] |
                      \set Timing.measurePosition = #(ly:make-moment 1 8 ) \grg b4 \taor b8 |
                      \break
@@ -83,7 +83,7 @@ MenOfArgyll =
                    {
                     \set Timing.measurePosition = #(ly:make-moment -2 8 ) \dble e8 [ \grg f16. e32] |
                     \thrwd d8 [ \grg c16. d32] \dblb b8 [ \thrwd d16. e32 ] |
-                    \grg f8 [ A8 ] \hdblf f8 [ \grg d16. e32] |
+                    \grg f8 [ \dblA A8 ] \hdblf f8 [ \grg d16. e32] |
                     \grg f16. [ e32 \grg f32 A16. ]  \hdblc c8 [ \gre a8 ] |
                     \set Timing.measurePosition = #(ly:make-moment 1 8 ) \grg b4 \taor b8 |
                     \break
