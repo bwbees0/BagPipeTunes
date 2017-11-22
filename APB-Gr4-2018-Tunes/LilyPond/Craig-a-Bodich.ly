@@ -47,7 +47,7 @@ Craig-a-Bodich =
                  {                   
                    \gra e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
                    \thrwd d8. [ e16 ] \dbld d8. [ b16 ] \grg G8. [ a16 ] \grg b16 [ d8. ] |
-                   \grA e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
+                   \grA e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ A8. ] |
                    g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 |                  
                    \break
                    \gra e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
