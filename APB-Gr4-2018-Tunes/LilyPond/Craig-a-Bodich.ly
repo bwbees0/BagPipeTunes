@@ -5,21 +5,21 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
-filename = "~/FearChùlCharn.ly"
+filename = "~/Craig-a-Bodich.ly"
 tunesetVersion = "Version 1"
-source = "Logan's Complete Tutor for the Highland Bagpipe" 
+source = "D MacLeod bk 4" 
 % source = "http://www.ceolsean.net/content/B2B/Book08/Book08%204.pdf"
 % source = "http://www.ceolsean.net/content/Cowal/Book01/Book01%209.pdf"
 
 
 \header { 
-          title = "Fear Chùl Charn - Culcairn's Strathspey"
-          composer = "Traditional"
+          title = "Craig-a-Bodich"
+          composer = "PM Donald MacLeod"
           arranger = ""
           meter = "Strathspey" 
-          tagline = \markup { \filename  " " \source " "  git Version: \gitCommitish  Committed: \gitDateTime
+          tagline = \markup { \filename " " \source " " git Ver: \gitCommitish  Commit: \gitDateTime
           Engraved:
-          \simple #(strftime "%d - %b - %Y - %H%M  " (localtime (current-time)))
+          \simple #(strftime "%d-%b-%Y-%H%M  " (localtime (current-time)))
          % with \with-url #"http://lilypond.org/"
          % \line { LilyPond \simple #(lilypond-version) (http://lilypond.org/) }
         }    
@@ -33,29 +33,30 @@ source = "Logan's Complete Tutor for the Highland Bagpipe"
 % \paper {
 % 	#(set-paper-size "letter" 'portrait)
 % }
-FearChùlCharn = 
+Craig-a-Bodich = 
 {
   \time 4/4
   \bar ".|:"
   \repeat volta 2 {                   
-                   \set Timing.measurePosition = #(ly:make-moment -1 8 ) \grg g8 |
-                   G16 [ \dblG G8. ] \Gthrwd d8. [ b16]  \thrwd d8. [ e16]  \dbld d8. [ b16] |
-                   \grg G8. [ \grd b16 ] \thrwd d8. [ b16 ] \dble e8. [ d16 ] \dblb b4 |
-                   G16 [ \dblG G8. ] \Gthrwd d8. [ b16]  \thrwd d8. [ e16]  \dbld d8. [ b16] |
-                   \grg e8. [ f16 ] \hdblg g8. [ e16 ] \dbld d8. [b16 ] \grg a4 | \bar ":|.-|"
+                   \grg a4 \taor a8. [ \grd b16 ] \grg G8. [ a16 ] \grg b16 e8. ] |
+                   \grg a4 \taor a8. [ \grd b16 ]  \dble e8. [ d16 ]  \grg e16 [ g8. ] |
+                   \tdble e8. [ b16 ] \dblb b8. [ a16] \grg G8. [ a16 ] \grg b16 [ d8. ] |
+                   g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 | \bar ":|.-.|"
                    \break
                  }
                  {                   
-                   \hdblg g8. [A16 ] \grf g8. [ e16 ] \thrwd d8. [ e16] \dbld d8. [ b16 ] |
-                   \hdblg g8. [A16 ] \grf g8. [ e16 ] \thrwd d8. [ e16] \dblb b4 |
-                   \hdblg g8. [A16 ] \grf g8. [ e16 ] \thrwd d8. [ e16] \dbld d8. [ b16 ] |
-                   \grg e8. [ f16 ] \hdblg g8. [ e16 ] \dbld d8. [b16 ] \grg a4 |             
+                   \gra e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
+                   \thrwd d8. [ e16 ] \dbld d8. [ b16 ] \grg G8. [ a16 ] \grg b16 [ d8. ] |
+                   \grA e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
+                   g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 |                  
                    \break
-                  
-                   \break
+                   \gra e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
+                   \tdble e8. [ b16 ] \dblb b8. [ a16] \grg G8. [ a16 ] \grg b16 [ d8. ] |
+                   \grg a4 \taor a8. [ \grd b16 ] \grg G8. [ a16 ] \grg b16 e8. ] |
+                   g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 | \bar "|."
+                   \break                   
                  }
 }
-
 
 
 % This just outputs both a portrait and a landscape pdf file.  
@@ -63,12 +64,13 @@ FearChùlCharn =
 % get the engraving in the Frescobaldi window on the right. 
 
 \book {
-  \bookOutputName "FearChulCharn"   
+  \bookOutputName "Craig-a-Bodich"   
   \score {
     \new Staff <<
         \new Voice {
           \global
-          \FearChùlCharn 
+          \defaultTimeSignature
+          \Craig-a-Bodich 
         }      	
     >>
     \layout { \ScoreLayout }
@@ -83,12 +85,13 @@ FearChùlCharn =
 }
 
 \book {
-  \bookOutputName "FearChulCharn-Landscape"   
+  \bookOutputName "Craig-a-Bodich-Landscape"   
   \score {
     \new Staff <<
         \new Voice {
           \global
-          \FearChùlCharn
+          \defaultTimeSignature
+          \Craig-a-Bodich
         }
       >>		
     \layout { 
@@ -128,7 +131,7 @@ FearChùlCharn =
 			\new Voice {
 				\set midiInstrument = #"bagpipe"
 				\global
-				\FearChùlCharn
+				\Craig-a-Bodich
 			}
 		>>		
 	\midi { \midiSettings }	
