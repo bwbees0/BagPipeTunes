@@ -46,7 +46,7 @@ MuirOfOrd =
                    \dble e8. [ d16] \dblb b8 [ \gre G8 ] |
                    \grg a4 \wbirl a8 [ \hdblg g8 ] | 
                    \break
-                   \dble e8. [ d16 ] \dblb b8 [ a8] |
+                   \tdble e8. [ d16 ] \dblb b8 [ a8] |
                    \grg G8. [ a16 ] \grg b8 [ A8] |
                    \grf g16. [ f32 \grg e16. d32 ] \grg b8 [ \thrwd d8 ] |
                    \set Timing.measurePosition = #(ly:make-moment 1 8)  \dble e4 \gra e8 |                                   
