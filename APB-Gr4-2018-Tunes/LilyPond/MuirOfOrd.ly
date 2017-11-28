@@ -6,7 +6,7 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
 filename = "~/MuirOfOrd.ly"
-tunesetVersion = "Version 1"
+tunesetVersion = "Version 1b"
 source = "APB"
 
 \header { 
@@ -67,7 +67,7 @@ MuirOfOrd =
                  }
  \repeat volta 2 {                   
                   \set Timing.measurePosition = #(ly:make-moment -1 8) \hdblg g8 |
-                  \hdblb b8. [ a16 ] \grg G8 \Gthrwd d8 ] |
+                  \hdblb b8. [ a16 ] \grg G8 [ \Gthrwd d8 ] |
                   \grg b8 [ \thrwd d8 ] \grg e8 [ \hdblg g8 ] |
                   \hdblb b8. [ a16 ] \dblb b8 [ \gre G8 ] | 
                   \grg a4 \wbirl a8 [ \hdblg g8 ] |
