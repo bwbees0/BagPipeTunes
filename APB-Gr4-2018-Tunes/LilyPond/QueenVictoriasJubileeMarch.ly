@@ -6,7 +6,7 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
 filename = "~/QueenVictoriasJubileeMarch.ly"
-tunesetVersion = "Version 2"
+tunesetVersion = "Version 2b"
 source = ""
 % source = "sheet" 
 % source = "http://www.ceolsean.net/content/B2B/Book08/Book08%204.pdf"
@@ -48,7 +48,7 @@ QueenVictoriasJubilee =
                    \break
                    \grg a8 [ f8 ]  \dblf f16. [ e32 \grg f32 A16. ] |
                    \grf g8 [ b8]  \dble e8. [ d16] |
-                   \dblc c8 [ A8 ] \grg A16 [ g16 \grA f16 e16 ] |
+                   \dblc c8 [ A8 ] \grg A16. [ g32 \grA f16. e32 ] |
                    \set Timing.measurePosition = #(ly:make-moment 1 8 ) \thrwd d4 \wslurd d8 | \bar ":|.-b"
                    \break
                  }
