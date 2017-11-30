@@ -172,6 +172,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 
 
+<<<<<<< HEAD
 
 
 \book {
@@ -234,6 +235,8 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
   }
 }
 
+=======
+>>>>>>> APB-Gr4-2018
 \markup{
 	\fill-line{
 		% using the 2 columns here is to get the text in the left most position  
