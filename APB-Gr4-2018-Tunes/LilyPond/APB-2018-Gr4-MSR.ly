@@ -5,9 +5,9 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
-\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/MuirOfOrd.ly"
-\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Craig-a-Bodich.ly"
-\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/2017_GR4_MSR_Voices.ly"
+%\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/MuirOfOrd.ly"
+%\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Craig-a-Bodich.ly"
+\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/2018_GR4_MSR_Voices.ly"
 
 filename = "~/APB-2018-Gr4-MSR.ly"
 tunesetVersion = "Version 1"
