@@ -9,14 +9,14 @@
 %\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Craig-a-Bodich.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/2018_GR4_MSR_Voices.ly"
 
-filename = "~/APB-2018-Gr4-MSR.ly"
+filename = "~/APB-2018-Gr4-MSR-FirstHalf.ly"
 tunesetVersion = "Version 1"
 source = ""  %Argyll & Sutherland Highlanders
 
 
 
 \header { 
-          title = "APB 2018 Grade 4 MSR"
+          title = "APB 2018 Grade 4 MSR - First Half"
           composer = ""
           arranger = ""
           meter = "" 
@@ -54,20 +54,20 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 % get the engraving in the Frescobaldi window on the right. 
 
 \book {
-  \bookOutputName "APB-2018-Gr4-MSR"   
+  \bookOutputName "APB-2018-Gr4-MSR-FirstHalf"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
 			\new Voice {
 				\global				
-				\MuirOfOrd
+				\DuncanMcInnes
 			}
 		>>		
 	>>
         \layout { \ScoreLayout }
                 \header{
-          piece = \markup {\fontsize #3 "Muir of Ord"}
-          opus = "G. S. McLennan Arr PM Graeme Smith APB"
+          piece = \markup {\fontsize #3 "Duncan McInnes"}
+          opus = "P/M P. R. McLeod"
         }
 }
 \pageBreak
@@ -112,20 +112,20 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 
 \book {
-  \bookOutputName "APB-2018-Gr4-MSR-Landscape"   
+  \bookOutputName "APB-2018-Gr4-MSR-FirstHalf-Landscape"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
 			\new Voice {
 				\global				
-				\MuirOfOrd
+				\DuncanMcInnes
 			}
 		>>		
 	>>
         \layout { \ScoreLayout }
                 \header{
-          piece = \markup {\fontsize #3 "Muir of Ord"}
-          opus = "G. S. McLennan Arr PM Graeme Smith APB"
+          piece = \markup {\fontsize #3 "Duncan McInnes"}
+          opus = "P/M P. R. McLeod"
         }
 }
 \pageBreak
@@ -173,21 +173,22 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 
 
+
 \book {
-  \bookOutputName "APB-2018-Gr4-MSR-OneSheet"   
-  \score {
+  \bookOutputName "APB-2018-Gr4-MSR-FirstHalf-OneSheet"   
+    \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
 			\new Voice {
 				\global				
-				\MuirOfOrd
+				\DuncanMcInnes
 			}
 		>>		
 	>>
         \layout { \ScoreLayout }
                 \header{
-          piece = \markup {\fontsize #3 "Muir of Ord"}
-          opus = "G. S. McLennan Arr PM Graeme Smith APB"
+          piece = \markup {\fontsize #3 "Duncan McInnes"}
+          opus = "P/M P. R. McLeod"
         }
 }
 \pageBreak
