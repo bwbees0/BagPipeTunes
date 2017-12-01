@@ -289,7 +289,7 @@ MuirOfOrd =
                   \break
                   \hdblg g8 [ A8 ] \grf g8 [ \grA f16. d32 ] |
                   \grg e8 [ A8 ]  \grg A8. [ f16 ] |
-                  \grf g16. [ f32 \grg e16. d32 ] \grg b8 [ \thrwd d8 ] |
+                  \grA g16. [ f32 \grg e16. d32 ] \grg b8 [ \thrwd d8 ] |
                   \set Timing.measurePosition = #(ly:make-moment 1 8)  \dble e4 \gra e8 |     
                   \break                   
                  }
@@ -362,7 +362,7 @@ Craig-a-Bodich =
   \repeat volta 2 {                   
                    \grg a4 \taor a8. [ \grd b16 ] \grg G8. [ a16 ] \grg b16 e8. ] |
                    \grg a4 \taor a8. [ \grd b16 ]  \dble e8. [ d16 ]  \grg e16 [ g8. ] |
-                   \tdble e8. [ b16 ] \dblb b8. [ a16] \grg G8. [ a16 ] \grg b16 [ d8. ] |
+                   \hdble e8. [ d16 ] \dblb b8. [ a16] \grg G8. [ a16 ] \grg b16 [ d8. ] |
                    g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 | \bar ":|.-.|"
                    \break
                  }
@@ -373,7 +373,7 @@ Craig-a-Bodich =
                    g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 |                  
                    \break
                    \gra e8. [ f16 ] \hdblg g8. [ e16 ] A8. [ g16 ] \grA e16 [ g8. ] |
-                   \tdble e8. [ b16 ] \dblb b8. [ a16] \grg G8. [ a16 ] \grg b16 [ d8. ] |
+                   \hdble e8. [ d16 ] \dblb b8. [ a16] \grg G8. [ a16 ] \grg b16 [ d8. ] |
                    \grg a4 \taor a8. [ \grd b16 ] \grg G8. [ a16 ] \grg b16 e8. ] |
                    g16 [ \grA e8. ] \gra e16 [ g8. ] \grA b16 [ d8. ] \dble e4 | \bar "|."
                    \break                   

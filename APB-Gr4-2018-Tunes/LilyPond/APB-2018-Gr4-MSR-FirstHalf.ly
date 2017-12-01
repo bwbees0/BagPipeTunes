@@ -10,7 +10,7 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/2018_GR4_MSR_Voices.ly"
 
 filename = "~/APB-2018-Gr4-MSR-FirstHalf.ly"
-tunesetVersion = "Version 1"
+tunesetVersion = "Version 1a"
 source = ""  %Argyll & Sutherland Highlanders
 
 
