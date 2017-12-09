@@ -9,7 +9,7 @@
 
 
 filename = "~/APB-Gr4-2018-Medley.ly"
-tunesetVersion = "Version 1"
+tunesetVersion = "Version 1b"
 source = ""  %Argyll & Sutherland Highlanders
 
  
@@ -44,7 +44,6 @@ source = ""  %Argyll & Sutherland Highlanders
 
 voltaTwo = \markup  { \hspace #20 \text \italic \fontsize #+5 { "2" }  }
 voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
-
 
 % **** end formatting goodies ****
 

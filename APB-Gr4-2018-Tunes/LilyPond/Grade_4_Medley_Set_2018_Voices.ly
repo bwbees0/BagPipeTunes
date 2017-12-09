@@ -25,6 +25,7 @@ voltaTwo = \markup  { \hspace #20 \text \italic \fontsize #+5 { "2" }  }
 voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 voltaLineTwoOnly = \markup { \hspace #1 \text \italic \fontsize #+5 {2nd time} }
+voltaJig =         \markup { \hspace #1 \text \italic \fontsize #+5 { "2.         jig time"} }   
 
 
 % **** End formatting goodies. ****
@@ -39,42 +40,51 @@ voltaLineTwoOnly = \markup { \hspace #1 \text \italic \fontsize #+5 {2nd time} }
 QueenVictoriasJubilee = 
 {
   \time 2/4
+                   \set Timing.measurePosition = #(ly:make-moment -1 4 ) e4 |
   \bar ".|:"
-  \repeat volta 2 {                   
-                   \set Timing.measurePosition = #(ly:make-moment -1 8 ) \grg f8 |
-                   \grg a8 [ f8 ]  \dblf f16. [ e32 \grg f32 A16. ] |
-                   \grf g8 [ b8]  \dble e8. [ d16] |
-                   \dblc c8 [ e8 ]  \dblb b8. [ \grd c16 ] |
-                   \dblb b8 [ \gre a8 ] \dblf f4 |
+  \repeat volta 2 { 
+                   \grg a8 [ f8 ]  \grg f16. [ e32 \grg f32 A16. ] |
+                   \grf g8 [ \grA b8]  \dble e8. [ d16] |
+                   \dblc c8 [ e8 ]  \dblb b8. [ c16 ] |
+                   \dblb b8 [ \gre a8 ] \grg f4 |
                    \break
                    \grg a8 [ f8 ]  \dblf f16. [ e32 \grg f32 A16. ] |
-                   \grf g8 [ b8]  \dble e8. [ d16] |
+                   \grf g8 [ \grA b8]  \dble e8. [ d16] |
                    \dblc c8 [ A8 ] \grg A16. [ g32 \grA f16. e32 ] |
-                   \set Timing.measurePosition = #(ly:make-moment 1 8 ) \thrwd d4 \wslurd d8 | \bar ":|.-b"
+                   \thrwd d4 \wslurd d8. [ b16 ] | \bar ":|.-b"
                    \break
                  }
   \repeat volta 2 {                   
-                   \set Timing.measurePosition = #(ly:make-moment -1 8 ) b8 |
-                   \grg a8 [ f8]  \dblf f16. [ e32 d16. c32 ] |
-                   \dblb b8 [ g8 ] \grf g16. [ f32 e16. d32] |
+                   %\set Timing.measurePosition = #(ly:make-moment -1 8 ) b8 |
+                   \grg a8 [ f8]  \dblf f16. [ e32 \grg d16. c32 ] |
+                   \dblb b8 [ g8 ] \grf g16. [ f32 \grg e16. d32] |
                    \dblc c8 [ A8 ]  \grg A16. [ g32 \grA f16. e32 ] |
-                   \dbld d16. [ c32 d16. e32 ] \dblf f8 [ b8 ] |
+                   \grg d16. [ c32 \grg d16. e32 ] \grg f8. [ b16 ] |
                    \break
-                   \grg a8 [ f8]  \dblf f16. [ e32 d16. c32 ] |
-                   \dblb b8 [ g8 ] \grf g16. [ f32 e16. d32 ] |
+                   \grg a8 [ f8]  \dblf f16. [ e32 \grg d16. c32 ] |
+                   \dblb b8 [ g8 ] \grf g16. [ f32 \grg e16. d32 ] |
                    \dblc c8 [ A8 ]  \grg A16. [ g32 \grA f16. e32 ] |
-                   \set Timing.measurePosition = #(ly:make-moment 1 8 ) \dbld d16. [ c32 d16. e32 ] }
-    \alternative {
-                   { \thrwd d8 | \bar ":|.-b"}
-                   { f8~|\time 6/8 
-                                   \override TextSpanner.bound-details.left.text = "jig time"
-                                   f4.\startTextSpan ~f4.\stopTextSpan | \break } 
-                 } 
+                   \grg d16. [ c32 \grg d16. e32 ] 
+                  }
+ \alternative     {
+                    {
+                      \set Timing.measurePosition = #(ly:make-moment -1 4 )
+                      \thrwd d8. [b16] | \bar ":|.-b"   
+                    }
+                    {
+                      \set Timing.measurePosition = #(ly:make-moment -1 4 ) \thrwd d4 ( |
+                      \time 6/8 e4. \mark \markup { \italic {jig time}}  e4. ) | \break
+                    }
+                  }  
 }
 
+%{
+{ \thrwd d8. | \bar ":|.-b"}
+                   {  \override TextSpanner.bound-details.left.text = "jig time"
+                     \thrwd  d8. ( \startTextSpan   |\time 6/8                                    
+                      e4.  ) \stopTextSpan | \break } 
 
-
-
+%}
 
 FleeTheGlen = 
 {
