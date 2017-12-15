@@ -1,5 +1,5 @@
 \version "2.19.80"
-
+ 
 \include "bagpipe.ly" 
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/BWB_Bagpipe.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
@@ -141,13 +141,64 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
         }
 }
 
-
-
-  \paper {
-    #(set-paper-size "letter" 'portrait)
-  }
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" <<
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\AleIsDearSG
+			}
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "The Ale is Dear --SG vol1"}
+          meter = "Reel"
+          opus = "Traditional"
+        }
+}
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" <<
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\AleIsDearQOH
+			}
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "The Ale is Dear-- QOH -- Tha Leann Daor Aig Na Gillean"}
+          meter = "Reel"
+          opus = "Arr PM Norman Gillies (Ullapool)"
+        }
 }
 
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" <<
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\TailToddle
+			}
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "Tail Toddle"}
+          meter = "Reel"
+          opus = "Traditional"
+        }
+}
+  \paper {
+    #(set-paper-size "letter" 'portrait)
+        %page-breaking = #ly:one-page-breaking 
+        page-breaking = #ly:minimal-breaking
+  }
+}
 
 
 
@@ -163,6 +214,8 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 				\FleeTheGlen
 				\Haunting
 				\MaidsOfTheBlackGlen
+				\AleIsDearSG
+				\TailToddle
 			}
 		>>		
 	\midi { \midiSettings }	
