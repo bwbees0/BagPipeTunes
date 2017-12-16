@@ -68,15 +68,15 @@ QueenVictoriasJubilee =
                    \grg a8 [ f8]  \dblf f16. [ e32 \grg d16. c32 ] |
                    \dblb b8 [ g8 ] \grf g16. [ f32 \grg e16. d32 ] |
                    \dblc c8 [ A8 ]  \grg A16. [ g32 \grA f16. e32 ] |
-                   \grg d16. [ c32 \grg d16. e32 ] 
+                   \thrwd d4 
                   }
  \alternative     {
                     {
                       \set Timing.measurePosition = #(ly:make-moment -1 4 )
-                      \thrwd d8. [b16] | \bar ":|.-b"   
+                      \wslurd d8. [ b16 ] | \bar ":|.-b"   
                     }
                     {
-                      \set Timing.measurePosition = #(ly:make-moment -1 4 ) \thrwd d4 ( |
+                      \set Timing.measurePosition = #(ly:make-moment -1 4 ) \wslurd d4 ( |
                       \time 6/8 e4. \mark \markup { \italic {jig time}}  e4. ) | \break
                     }
                   }  
