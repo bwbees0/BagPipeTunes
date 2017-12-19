@@ -141,6 +141,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
         }
 }
 
+%{
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -158,21 +159,25 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "Traditional"
         }
 }
+%}
+
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
 			\new Voice {
 				\global	
 				\defaultTimeSignature
-				\AleIsDearQOH
+				\AleIsDearRound
+				%\AleIsDearQOH
 			}
 		>>		
 	>>
         \layout { \ScoreLayout }
                 \header{
-          piece = \markup {\fontsize #3 "The Ale is Dear-- QOH -- Tha Leann Daor Aig Na Gillean"}
+          piece = \markup {\fontsize #3 "The Ale is Dear -- Tha Leann Daor Aig Na Gillean"}
           meter = "Reel"
-          opus = "Arr PM Norman Gillies (Ullapool)"
+          %opus = "Arr PM Norman Gillies (Ullapool)"
+          opus = "Traditional"
         }
 }
 
@@ -182,7 +187,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 			\new Voice {
 				\global	
 				\defaultTimeSignature
-				\TailToddle
+				\TailToddleRound
 			}
 		>>		
 	>>
@@ -215,7 +220,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 				\Haunting
 				\MaidsOfTheBlackGlen
 				\AleIsDearSG
-				\TailToddle
+				\TailToddleRound
 			}
 		>>		
 	\midi { \midiSettings }	

@@ -317,9 +317,7 @@ AleIsDearQOH =
 }
 
 
-
-
-TailToddle = 
+%{ TailToddle = 
 {
  % Seaforth Highlander's 
  \reelTime
@@ -348,8 +346,62 @@ TailToddle =
                   \break
                  }
 }
+%}
 
 
+
+AleIsDearRound =
+{
+ \reelTime
+ \bar ".|:"
+ \repeat volta 2 {
+                  \dblf f4  \grg e8 [ f8 ] \grg b8 [ \grd b8 ] \grg f8 [ e8 ] |
+                  \grg f8 [ A8 e8 A8 ]  c8 [ \grd a8 \grg e8 c8 ] |
+                  \dblf f4  \grg e8 [ f8 ] \grg b8 [ \grd b8 ] \grg f8 [ e8 ] |
+                  \grg f8 [ A8 e8 c8 ] \grg b8 [ \grd b8 \gre b8  c8 ] | \bar ":|.-.|" 
+                  \break                  
+                 }
+                  \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ a8 ] |
+                  \grg a8 [ \grd a8 \gre a8 c8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
+                  \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ a8 ] |
+                  \dblf f4  \grg e8 [ c8 ] \grg b8 [ \grd b8 \gre b8 c8 ] |
+                  \break
+                  \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ a8 ] |
+                  \grg a8 [ \grd a8 \gre a8 c8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
+                  \thrwd d4 \grg f8 [ d8 ]  \grg c8 [ A8 ]  e8 [ c8 ] |
+                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b4 |
+                  \break
+}
+
+TailToddleRound = 
+{
+ \reelTime
+ \bar ".|:"
+ \repeat volta 2 {
+                   \thrwd d4 \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
+                   \thrwd d4 \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                   \thrwd d4 \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
+                   \hdblg g4 A8 [ f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|:"
+                   \break
+                 }
+ \repeat volta 2 {
+                  \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] |
+                  \hdblg g4 \grA d8 [ b8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                  \set Score.repeatCommands =#(list (list 'volta voltaFirst ) )
+                  { 
+                     \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] |                    
+                  } 
+                  \set Score.repeatCommands = #'((volta #f ))
+                     \set Score.repeatCommands =#(list (list 'volta voltaSecond ) )
+                  { 
+                     \hdblg g4 d8 [ b8 ]  \hdblg g4 \grg d8 [ b8 ] |                    
+                  } 
+                  \set Score.repeatCommands = #'((volta #f ))
+                  \grA c8 [ \grd a8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] |
+                  \break
+                 }
+
+}
 
 
 
@@ -424,7 +476,7 @@ MinkSporran =
                }
   }%}
  
-
+%}
 
 MaidsOfTheBlackGlenTwo = 
 {
