@@ -161,6 +161,25 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 %}
 
+
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" <<
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\TailToddleRound
+			}
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "Tail Toddle"}
+          meter = "Reel"
+          opus = "Traditional"
+        }
+}
+
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -181,23 +200,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
         }
 }
 
-\score {
-	\new GrandStaff <<
-		\new Staff = "GHB" <<
-			\new Voice {
-				\global	
-				\defaultTimeSignature
-				\TailToddleRound
-			}
-		>>		
-	>>
-        \layout { \ScoreLayout }
-                \header{
-          piece = \markup {\fontsize #3 "Tail Toddle"}
-          meter = "Reel"
-          opus = "Traditional"
-        }
-}
   \paper {
     #(set-paper-size "letter" 'portrait)
         %page-breaking = #ly:one-page-breaking 
