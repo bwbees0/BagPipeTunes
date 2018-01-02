@@ -412,7 +412,7 @@ TailToddleRound =
                   \set Score.repeatCommands = #'((volta #f ))
                      \set Score.repeatCommands =#(list (list 'volta voltaSecond ) )
                   { 
-                     \hdblg g4 d8 [ b8 ]  \hdblg g4 \grg d8 [ b8 ] |                    
+                     \hdblg g4 \grA d8 [ b8 ]  \hdblg g4 \grA d8 [ b8 ] |                    
                   } 
                   \set Score.repeatCommands = #'((volta #f ))
                   \grA c8 [ \grd a8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] |
