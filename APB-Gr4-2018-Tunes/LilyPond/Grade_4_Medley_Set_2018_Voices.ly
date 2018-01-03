@@ -368,8 +368,8 @@ AleIsDearRound =
                   \break
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
                   \grg a8 [ \grd a8 \gre a8 \grd b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
-                  \thrwd d4 \grg f8 [ d8 ]  \grg c8 [ A8 ]  e8 [ b8 ] |
-                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b8 [ \grg c8\fermata ] |
+                  \thrwd d4 \grg f8 [ d8 ]  \grg c8 [ A8 ]  e8 [ c8 ] |
+                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b8 [ \grd c8\fermata ] |
                   \break
 }
 
