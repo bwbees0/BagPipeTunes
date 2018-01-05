@@ -61,12 +61,12 @@ QueenVictoriasJubilee =
   \repeat volta 2 {                   
                    %\set Timing.measurePosition = #(ly:make-moment -1 8 ) b8 |
                    \grg a8 [ f8]  \dblf f16. [ e32 \grg d16. c32 ] |
-                   \dblb b8 [ g8 ] \grf g16. [ f32 \grg e16. d32] |
+                   \dblb b8 [ g8 ] \grA g16. [ f32 \grg e16. d32] |
                    \dblc c8 [ A8 ]  \grg A16. [ g32 \grA f16. e32 ] |
                    \grg d16. [ c32 \grg d16. e32 ] \grg f8. [ b16 ] |
                    \break
                    \grg a8 [ f8]  \dblf f16. [ e32 \grg d16. c32 ] |
-                   \dblb b8 [ g8 ] \grf g16. [ f32 \grg e16. d32 ] |
+                   \dblb b8 [ g8 ] \grA g16. [ f32 \grg e16. d32 ] |
                    \dblc c8 [ A8 ]  \grg A16. [ g32 \grA f16. e32 ] |
                    \thrwd d4 
                   }
@@ -368,7 +368,7 @@ AleIsDearRound =
                   \break
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
                   \grg a8 [ \grd a8 \gre a8 \grd b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
-                  \thrwd d4 \grg f8 [ d8 ]  \grg c8 [ A8 ]  e8 [ c8 ] |
+                  \thrwd d4 \grg f8 [ d8 ]  \grg c4 A8 [ c8 ]  |
                   \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b8 [ \grd c8\fermata ] |
                   \break
 }
@@ -415,11 +415,20 @@ TailToddleRound =
                      \hdblg g4 \grA d8 [ b8 ]  \hdblg g4 \grA d8 [ b8 ] |                    
                   } 
                   \set Score.repeatCommands = #'((volta #f ))
-                  \grA c8 [ \grd a8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] |
-                  \break
+                  \grA c8 [ \grd a8 A8 f8 ]  
+ }
+ \alternative {
+                 {
+                   \dble e4 \grg c8 [ \grd a8 ] |
                  }
-
+                 { 
+                   \dble e4~e4 |
+                   \break
+                 }
+ }
 }
+
+
 
 
 
