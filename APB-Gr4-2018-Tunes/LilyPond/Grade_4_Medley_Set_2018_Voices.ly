@@ -465,12 +465,12 @@ TailToddleExpanded =
                   \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] |
                   \hdblg g4 \grA d8 [ b8 ] \dble e4 \grg c8 [ \grd a8 ] |
                   \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] | 
-                  \grA c8 [ \grd a8 A8 f8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                  \grg c8 [ \grd a8 A8 f8 ] \dble e4 \grg c8 [ \grd a8 ] |
                   \break
                   \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] |
                   \hdblg g4 \grA d8 [ b8 ] \dble e4 \grg c8 [ \grd a8 ] |
                   \hdblg g4 \grA d8 [ b8 ]  \hdblg g4 \grA d8 [ b8 ] | 
-                  \grA c8 [ \grd a8 A8 f8 ] \dble e4~e4 | \bar "|."
+                  \grg c8 [ \grd a8 A8 f8 ] \dble e4~e4 | \bar "|."
                   \break
                  }
 
