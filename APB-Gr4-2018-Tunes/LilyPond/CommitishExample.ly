@@ -1,9 +1,8 @@
 \version "2.19.80"
  
-\include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
-\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices.ly"
+%\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices.ly"
 
 
 filename = "~/CommitishExample.ly"
@@ -28,33 +27,27 @@ source = ""
 
 
 \book {
-  % \bookOutputSuffix 
+  %\bookOutputSuffix   what to put here to get the suffix to be the git version "5754250" or whatever the latest version is???
   \bookOutputName "CommitishExample"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
-			\new Voice {
-				\global				
+			\new Voice {							
 				\time 4/4
-				c4 d4 e4 f4 |
+				\relative c''{	c4 d4 e4 f4 | }
 				\break
 				
 			}
 		>>		
 	>>
-        \layout { \ScoreLayout }
-                \header{
-          piece = \markup {\fontsize #3 "Commitish Example"}
-          opus = "Arranged...."
-        }
+    
+  }
 }
 
   \paper {
-    #(set-paper-size "letter" 'portrait)
-        %page-breaking = #ly:one-page-breaking 
+    #(set-paper-size "letter" 'portrait)        
         page-breaking = #ly:minimal-breaking
   }
-}
 
 
 
