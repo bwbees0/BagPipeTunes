@@ -457,19 +457,19 @@ TailToddleExpanded =
                    \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
                    \thrwd d4 \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
                    \thrwd d4 \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
-                   f4 g8 [A8]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
+                   f8 [g8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
                    \break
                  }
                  %second part expanded
                  {
-                  \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] |
+                  \hdblg g4 \grA d8 [ b8 ] \grg b8 [ \grd b8 ]  \grg d8 [ b8 ] |
                   \hdblg g4 \grA d8 [ b8 ] \dble e4 \grg c8 [ \grd a8 ] |
-                  \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] | 
+                  \hdblg g4 \grA d8 [ b8 ] \grg b8 [ \grd b8 ] \grg d8 [ b8 ] | 
                   \grg a8 [ \grd a8 A8 f8 ] \dble e4 \grg c8 [ \grd a8 ] |
                   \break
-                  \hdblg g4 \grA d8 [ b8 ] \dblb b4 \grg d8 [ b8 ] |
+                  \hdblg g4 \grA d8 [ b8 ] \grg b8 [ \grd b8 ] \grg d8 [ b8 ] |
                   \hdblg g4 \grA d8 [ b8 ] \dble e4 \grg c8 [ \grd a8 ] |
-                  \hdblg g4 \grA d8 [ b8 ]  \hdblg g4 \grA d8 [ b8 ] | 
+                  \hdblg g4 \grA d8 [ b8 ] \hdblg g4 \grA d8 [ b8 ] | 
                   \grg a8 [ \grd a8 A8 f8 ] \dble e4~e4 | \bar "|."
                   \break
                  }
