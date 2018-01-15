@@ -2,8 +2,6 @@
  
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
-%\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices.ly"
-
 
 filename = "~/CommitishExample.ly"
 tunesetVersion = "Version 1"
@@ -27,7 +25,7 @@ source = ""
 
 
 \book {
-  %\bookOutputSuffix   what to put here to get the suffix to be the git version "5754250" or whatever the latest version is???
+  %\bookOutputSuffix   what to put here to get the suffix to be the git version "0490435" or whatever the latest version is???
   \bookOutputName "CommitishExample"   
   \score {
 	\new GrandStaff <<
