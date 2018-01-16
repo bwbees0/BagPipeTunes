@@ -362,12 +362,12 @@ AleIsDearRound =
                   \break                  
                  }
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
-                  \grg a8 [ \grd a8 \gre a8 \grd b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
+                  \grg a8 [ \grd a8 \gre a8  b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
                   a8 [ f8 ] \grg e8 [ c8 ] \grg b8 [ \grd b8 \gre b8 c8 ] |
                   \break
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
-                  \grg a8 [ \grd a8 \gre a8 \grd b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
+                  \grg a8 [ \grd a8 \gre a8  b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
                   \thrwd d4 \grg f8 [ d8 ]  \grg c4 A8 [ c8 ]  |
                   \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b8 [ \grd c8\fermata ] | \bar "|."
                   \break
@@ -457,7 +457,7 @@ TailToddleExpanded =
                    \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
                    \thrwd d4 \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
                    \thrwd d4 \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
-                   f8 [g8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
+                   \grg f8 [g8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
                    \break
                  }
                  %second part expanded
