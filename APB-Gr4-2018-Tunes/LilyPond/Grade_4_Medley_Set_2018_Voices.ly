@@ -369,9 +369,36 @@ AleIsDearRound =
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
                   \grg a8 [ \grd a8 \gre a8  b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
                   \thrwd d4 \grg f8 [ d8 ]  \grg c4 A8 [ c8 ]  |
-                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b8 [ \grd c8\fermata ] | \bar "|."
+                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b4\fermata  | \bar "|."
                   \break
 }
+
+
+AleIsDearHarmonies = 
+
+{
+  
+ \reelTime
+ \bar ".|:"
+ \repeat volta 2 {
+                  \dblf f4^\markup {Harmonies 2nd time only.} \grg e8 [ f8 ]  \grg b8 [ \grd b8 \grg f8 e8 ] |
+                  \grg d8 [ A8 c8 A8] e8 [ a8 A8 c8 ] |
+                  \dblf f4  \grg e8 [ f8 ]  \grg b8 [ \grd b8 \grg f8 e8 ] |
+                  \grg d8 [ f8 A8 e8 ]  f8 [ \grg f8 \gre f8 e8 ] | \bar ":|.-.|" 
+                  \break                  
+                 }
+                  \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
+                  \grg a8 [ \grd a8 \gre a8  b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
+                  \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
+                  a8 [ f8 ] \grg e8 [ c8 ] \grg b8 [ \grd b8 \gre b8 c8 ] |
+                  \break
+                  d8 [ \grg d8 \gre d8 e8 ] \dblf f4 \grg e8 [ d8 ] |
+                  \grg e4~e8 [ f8] \grg e4~e4|
+                  \dblf f4 A8 [ f8 ] \grg e4~e4|
+                  \grg d4 A8 [ e8 ] f8 \grg f8 ] \gre f4\fermata ] | \bar "|."
+                  \break
+}
+
 
 TailToddleRound = 
 {
@@ -477,7 +504,52 @@ TailToddleExpanded =
 }
 
 
+TailToddleHarmonies = 
+{
+  \reelTime
 
+                  \set Score.repeatCommands =#(list (list 'volta voltaFirst ) )
+                  { 
+                   
+                     \set Timing.measurePosition = #(ly:make-moment 3 4 )
+                     \wslurd d4 |                    
+                  } 
+                  \set Score.repeatCommands = #'((volta #f ))  
+                  
+  %\reelTime
+  \bar ".|:"
+ \repeat volta 2 {
+   
+                  \set Score.repeatCommands =#(list (list 'volta voltaSecond ) )
+                  { 
+                     \set Timing.measurePosition = #(ly:make-moment 0 2 )
+                     \thrwd d4                     
+                  } 
+                  \set Score.repeatCommands = #'((volta #f ))
+                   \set Timing.measurePosition = #(ly:make-moment 1 4 )
+                   \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
+                   \thrwd d4 \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                   \thrwd d4 \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
+                   \grg f8 [g8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
+                   \break
+                 }
+                 %second part expanded
+                 {
+                  \hdblg g4 \grA d8 [ b8 ] \grg b8 [ \grd b8 ]  \grg d8 [ b8 ] |
+                  \hdblg g4 \grA d8 [ b8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                  \hdblg g4 \grA d8 [ b8 ] \grg b8 [ \grd b8 ] \grg d8 [ b8 ] | 
+                  \grg a8 [ \grd a8 A8 f8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                  \break
+                  \thrwd d4~d4~d4~d4~|
+                  d4~d4 \dblc c4~c4 |
+                  \thrwd d4~d4~d4~d4~|
+                  d4~d4 \hdblg g4~g4 |
+                  \break
+                 }
+
+
+
+}
 
 
 %***************  Old stuff below ******************
