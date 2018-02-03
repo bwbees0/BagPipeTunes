@@ -122,12 +122,18 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 \score {
 	\new GrandStaff <<
-		\new Staff = "GHB" <<
+		\new Staff = "GHB" 
 			\new Voice {
 				\global	
 				\defaultTimeSignature
 				\TailToddleExpanded
 			}
+	        \new Staff = "GHB" <<
+	                \new Voice {
+	                        \global
+	                        \defaultTimeSignature
+	                        \TailToddleHarmonies
+	               }
 		>>		
 	>>
         \layout { \ScoreLayout }
@@ -140,13 +146,19 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 \score {
 	\new GrandStaff <<
-		\new Staff = "GHB" <<
+		\new Staff = "GHB" 
 			\new Voice {
 				\global	
 				\defaultTimeSignature
 				\AleIsDearRound
 				%\AleIsDearQOH
 			}
+	      \new Staff = "GHB" <<
+	                \new Voice {
+	                        \global
+	                        \defaultTimeSignature
+	                        \AleIsDearHarmonies
+	               }
 		>>		
 	>>
         \layout { \ScoreLayout }
@@ -169,18 +181,44 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 
 
-
+\book { \bookOutputName "ReelHarmonies"
+        
 \score {  % for midi only
-	\new Staff = "MidiStaff" <<
+	\new GrandStaff = "MidiStaff" <<
                   \unfoldRepeats
+			\new Staff \with {midiInstrument = #"bagpipe"} %{= "GHB" %}
 			\new Voice {
-				\set midiInstrument = #"bagpipe"
-				\global
+				\global	
+				\defaultTimeSignature
 				\TailToddleExpanded
-				\AleIsDearRound
-				
 			}
+	                \new Staff \with {midiInstrument = #"bagpipe"}  %{= "GHB"%} <<
+	                \new Voice {
+	                        \global
+	                        \defaultTimeSignature
+	                        \TailToddleHarmonies
+	               }
 		>>		
+	>>\midi { \midiSettings }	
+}
+\score {  % for midi only
+	\new GrandStaff <<
+		\new Staff \with {midiInstrument = #"bagpipe"}  %{= "GHB" %}
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\AleIsDearRound
+				%\AleIsDearQOH
+			}
+	      \new Staff \with {midiInstrument = #"bagpipe"}  %{= "GHB"%} <<
+	                \new Voice {
+	                        \global
+	                        \defaultTimeSignature
+	                        \AleIsDearHarmonies
+	               }
+		>>		
+	>>
 	\midi { \midiSettings }	
+}
 }
 
