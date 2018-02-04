@@ -543,7 +543,7 @@ TailToddleHarmonies =
                   \thrwd d4~d4~d4~d4~|
                   d4~d4 \dblc c4~c4 |
                   \thrwd d4~d4~d4~d4~|
-                  d4~d4 \hdblg g4~g4 |
+                  d4~d4 \dbla a4~a4 |
                   \break
                  }
 
