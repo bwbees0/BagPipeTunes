@@ -9,7 +9,7 @@
 
 
 filename = "~/APB-Gr4-2018-Medley-Expanded.ly"
-tunesetVersion = "Version 1b"
+tunesetVersion = "Version 1c"
 source = ""  %Argyll & Sutherland Highlanders
 
  
@@ -162,25 +162,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 %}
 
-
-\score {
-	\new GrandStaff <<
-		\new Staff = "GHB" <<
-			\new Voice {
-				\global	
-				\defaultTimeSignature
-				\TailToddleExpanded
-			}
-		>>		
-	>>
-        \layout { \ScoreLayout }
-                \header{
-          piece = \markup {\fontsize #3 "Tail Toddle"}
-          meter = "Reel"
-          opus = "Traditional"
-        }
-}
-
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -200,6 +181,26 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "Traditional"
         }
 }
+
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" <<
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\TailToddleExpanded
+			}
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "Tail Toddle"}
+          meter = "Reel"
+          opus = "Traditional"
+        }
+}
+
+
 
   \paper {
     #(set-paper-size "letter" 'portrait)
@@ -323,25 +324,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 %}
 
-
-\score {
-	\new GrandStaff <<
-		\new Staff = "GHB" <<
-			\new Voice {
-				\global	
-				\defaultTimeSignature
-				\TailToddleExpanded
-			}
-		>>		
-	>>
-        \layout { \ScoreLayout }
-                \header{
-          piece = \markup {\fontsize #3 "Tail Toddle"}
-          meter = "Reel"
-          opus = "Traditional"
-        }
-}
-
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -361,6 +343,26 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "Traditional"
         }
 }
+
+
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" <<
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\TailToddleExpanded
+			}
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "Tail Toddle"}
+          meter = "Reel"
+          opus = "Traditional"
+        }
+}
+
 
   \paper {
     #(set-paper-size "letter" 'landscape)

@@ -161,6 +161,31 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
         }
 }
 %}
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" 
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\AleIsDearRound
+				%\AleIsDearQOH
+			}
+	      \new Staff = "GHB" <<
+	                \new Voice {
+	                        \global
+	                        \defaultTimeSignature
+	                        \AleIsDearHarmonies
+	               }
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "The Ale is Dear -- Tha Leann Daor Aig Na Gillean"}
+          meter = "Reel"
+          %opus = "Arr PM Norman Gillies (Ullapool)"
+          opus = "Traditional"
+        }
+}
 
 
 \score {
@@ -187,31 +212,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
         }
 }
 
-\score {
-	\new GrandStaff <<
-		\new Staff = "GHB" 
-			\new Voice {
-				\global	
-				\defaultTimeSignature
-				\AleIsDearRound
-				%\AleIsDearQOH
-			}
-	      \new Staff = "GHB" <<
-	                \new Voice {
-	                        \global
-	                        \defaultTimeSignature
-	                        \AleIsDearHarmonies
-	               }
-		>>		
-	>>
-        \layout { \ScoreLayout }
-                \header{
-          piece = \markup {\fontsize #3 "The Ale is Dear -- Tha Leann Daor Aig Na Gillean"}
-          meter = "Reel"
-          %opus = "Arr PM Norman Gillies (Ullapool)"
-          opus = "Traditional"
-        }
-}
+
 
   \paper {
     #(set-paper-size "letter" 'portrait)
@@ -336,29 +337,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 %}
 
 
-\score {
-	\new GrandStaff <<
-		\new Staff = "GHB" 
-			\new Voice {
-				\global	
-				\defaultTimeSignature
-				\TailToddleExpanded
-			}
-	        \new Staff = "GHB" <<
-	                \new Voice {
-	                        \global
-	                        \defaultTimeSignature
-	                        \TailToddleHarmonies
-	               }
-		>>		
-	>>
-        \layout { \ScoreLayout }
-                \header{
-          piece = \markup {\fontsize #3 "Tail Toddle"}
-          meter = "Reel"
-          opus = "Traditional"
-        }
-}
 
 \score {
 	\new GrandStaff <<
@@ -385,6 +363,31 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "Traditional"
         }
 }
+
+\score {
+	\new GrandStaff <<
+		\new Staff = "GHB" 
+			\new Voice {
+				\global	
+				\defaultTimeSignature
+				\TailToddleExpanded
+			}
+	        \new Staff = "GHB" <<
+	                \new Voice {
+	                        \global
+	                        \defaultTimeSignature
+	                        \TailToddleHarmonies
+	               }
+		>>		
+	>>
+        \layout { \ScoreLayout }
+                \header{
+          piece = \markup {\fontsize #3 "Tail Toddle"}
+          meter = "Reel"
+          opus = "Traditional"
+        }
+}
+
 
   \paper {
     #(set-paper-size "letter" 'landscape)
