@@ -369,7 +369,7 @@ AleIsDearRound =
                   \grg b8 [ \grd b8 \gre b8  c8 ]  \thrwd d4 \grg c8 [ b8 ] |
                   \grg a8 [ \grd a8 \gre a8  b8 ]  \grg a8 [ b8 \grg c8 \grd a8 ] |
                   \thrwd d4 \grg f8 [ d8 ]  \grg c4 A8 [ c8 ]  |
-                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b4\fermata  | \bar "|."
+                  \grg b8 [ f8 ] \grg e8 [ c8 ]  \grg b8 [ \grd b8 ] \gre b4  | \bar "|."
                   \break
 }
 
@@ -395,7 +395,7 @@ AleIsDearHarmonies =
                   d8 [ \grg d8 \gre d8 e8 ] \dblf f4 \grg e8 [ d8 ] |
                   \grg e4~e8 [ f8] \grg e4~e4|
                   \dblf f4 A8 [ f8 ] \grg e4~e4|
-                  \grg d4 A8 [ e8 ] f8 \grg f8 ] \gre f4\fermata ] | \bar "|."
+                  \grg d4 A8 [ e8 ] f8 \grg f8 ] \gre f4 ] | \bar "|."
                   \break
 }
 

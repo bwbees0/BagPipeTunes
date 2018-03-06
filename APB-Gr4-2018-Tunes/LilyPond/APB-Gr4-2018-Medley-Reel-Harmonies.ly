@@ -294,7 +294,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
                   opus = "Neil Dickie, Harmonies by Aaron Cole"             
         }
 }
-\pageBreak
+%\pageBreak
 
 \score {
 	\new GrandStaff <<
@@ -392,7 +392,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
   \paper {
     #(set-paper-size "letter" 'landscape)
         %page-breaking = #ly:one-page-breaking 
-        page-breaking = #ly:minimal-breaking
+        %page-breaking = #ly:minimal-breaking
         %page-breaking = #ly:page-turn-breaking
         %page-breaking = #ly:optimal-breaking
   }
