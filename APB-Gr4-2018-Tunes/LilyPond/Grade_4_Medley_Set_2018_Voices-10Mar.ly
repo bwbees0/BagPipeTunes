@@ -491,7 +491,7 @@ TailToddleExpanded =
                    %}
                    \thrwd d4 \grg f8 [ d8 ] \hdblg g4  f8 [ e8 ] |
                    \grg d8 [ \grc d8] \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
-                   \thrwd d4 \grg f8 [ d8 ]  g4 f8 [ e8 ] |
+                   \thrwd d4 \grg f8 [ d8 ]  \hdblg g4 f8 [ e8 ] |
                    \grg f8 [g8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
                    \break
                  }

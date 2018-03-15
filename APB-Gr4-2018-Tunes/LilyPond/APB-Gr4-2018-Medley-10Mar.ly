@@ -53,7 +53,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 \book {
   % \bookOutputSuffix 
-  \bookOutputName "APB-2018-Gr4-Medley-10Mar"   
+  \bookOutputName "APB-2018-Gr4-Medley-15Mar"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -212,7 +212,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 
 \book {
-  \bookOutputName "APB-2018-Gr4-Medley-Landscape-10Mar"   
+  \bookOutputName "APB-2018-Gr4-Medley-Landscape-15Mar"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
