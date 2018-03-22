@@ -222,7 +222,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 
 
-%{
+
 \book {
   \bookOutputName "APB-2018-Gr4-Medley-Landscape-Reel-Harmonies-21Mar"   
   \score {
@@ -315,7 +315,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 
 
-%}
+
 %{
 \score {
 	\new GrandStaff <<
@@ -337,7 +337,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 %}
 
 
-%{
+
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" 
@@ -398,7 +398,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
   }
 }
 
-%}
 
 
 \score {  % for midi only
