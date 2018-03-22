@@ -5,11 +5,11 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
-\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices.ly"
+\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices-21Mar.ly"
 
 
 filename = "~/APB-Gr4-2018-Medley-Reel-Harmonies.ly"
-tunesetVersion = "Version 1b"
+tunesetVersion = "Version 1c"
 source = ""  %Argyll & Sutherland Highlanders
 
  
@@ -53,7 +53,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 \book {
   % \bookOutputSuffix 
-  \bookOutputName "APB-2018-Gr4-Medley-ReelHarmonies"   
+  \bookOutputName "APB-2018-Gr4-Medley-ReelHarmonies-22Mar"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -224,7 +224,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 
 \book {
-  \bookOutputName "APB-2018-Gr4-Medley-Landscape-Reel-Harmonies"   
+  \bookOutputName "APB-2018-Gr4-Medley-Landscape-Reel-Harmonies-22Mar"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -392,12 +392,11 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
   \paper {
     #(set-paper-size "letter" 'landscape)
         %page-breaking = #ly:one-page-breaking 
-        %page-breaking = #ly:minimal-breaking
+        page-breaking = #ly:minimal-breaking
         %page-breaking = #ly:page-turn-breaking
         %page-breaking = #ly:optimal-breaking
   }
 }
-
 
 
 

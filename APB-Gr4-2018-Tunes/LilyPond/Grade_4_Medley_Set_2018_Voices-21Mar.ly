@@ -543,7 +543,7 @@ TailToddleHarmonies =
                  %}
                  
                    \thrwd d4 \grg f8 [ d8 ] \hdblg g4 f8 [ e8 ] |
-                   \thrwd d4 \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
+                   \grg d8 [ \grc d8] \grg f8 [ d8 ] \dble e4 \grg c8 [ \grd a8 ] |
                    \thrwd d4 \grg f8 [ d8 ] \hdblg g4 \hdblf f8 [ e8 ] |
                    \grg f8 [g8 A8 f8 ]  \dble e4 \grg c8 [ \grd a8 ] | \bar ":|.-.|"
                    \break
@@ -558,7 +558,7 @@ TailToddleHarmonies =
                   \thrwd d4~d4~d4~d4~|
                   d4~d4 \dblc c4~c4 |
                   \thrwd d4~d4~d4~d4~|
-                  d4~d4 \dblA A4~A4 | \grg e8 ( [ f8 f8 f8] ) r2 |
+                  d4~d4 \dblA A4~A4 |  e8 ( [ f8 f8 f8] ) r2 |
                   \break
                  }
 
