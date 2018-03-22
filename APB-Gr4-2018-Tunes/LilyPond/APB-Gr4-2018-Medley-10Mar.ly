@@ -5,10 +5,10 @@
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
 \include "/home/ben/workspace/GitHub_BagPipeTunes/include/gitDefinitions.ily"
 
-\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices-10Mar.ly"
+\include "/home/ben/workspace/GitHub_BagPipeTunes/APB-Gr4-2018-Tunes/LilyPond/Grade_4_Medley_Set_2018_Voices-21Mar.ly"
 
 
-filename = "~/APB-Gr4-2018-Medley-10Mar.ly"
+filename = "~/APB-Gr4-2018-Medley-21Mar.ly"
 tunesetVersion = "Version 1c"
 source = ""  %Argyll & Sutherland Highlanders
 
@@ -53,7 +53,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 \book {
   % \bookOutputSuffix 
-  \bookOutputName "APB-2018-Gr4-Medley-15Mar"   
+  \bookOutputName "APB-2018-Gr4-Medley-21Mar"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -212,7 +212,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 
 
 \book {
-  \bookOutputName "APB-2018-Gr4-Medley-Landscape-15Mar"   
+  \bookOutputName "APB-2018-Gr4-Medley-Landscape-21Mar"   
   \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
