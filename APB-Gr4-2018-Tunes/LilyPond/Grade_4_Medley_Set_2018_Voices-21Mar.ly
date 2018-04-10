@@ -567,7 +567,154 @@ TailToddleHarmonies =
 }
 
 
+%**********************  Revised Reels ****************
+
+
+HighRoadLinton = 
+{
+\reelTime
+\defaultTimeSignature
+\bar ".|:"
+\repeat volta 2 {
+                  \grg c8. [ e16 \gra e8. f16 ] \dblA A4~A8. [ e16] |
+                  \hdblg g4 f16 [ e8. ]  \dblA A4 c16 [ \grd a8. ] |
+                  \grg c8. [ e16 \gra e8. f16 ] \dblA A4~A8. [ e16] |
+                  \grg f16 [ A8.  e8. c16 ]  \dblb b4 \grG a4 |
+                  \break
+                  \grg c8. [ e16 \gra e8. g16 ]  \grA f8. [ d16 \grc d8. f16 ] |
+                  \grg e8. [ c16 \grG c8. e16 ]  \grg f8.  [ b16 \grG b8. d16 ] |
+                  \grg c8. [ e16 \gra e8. g16 ]  \grA f8. [ d16 \grc d8. f16 ] |
+                  \dble e8. [ c16 A8. c16 ]  \dblb b4 \grG a4 | 
+                  \break
+                  }
+}
+
+HighRoadLinton_Harmony = 
+{
+\reelTime
+\defaultTimeSignature
+\repeat volta 2 {
+                  \grg c8.^\markup {Harmonies 2nd time only.} [ e16 \gra e8. f16 ] \dblA A4~A8. [ e16] |
+                  \hdblg g4 f16 [ e8. ]  \dblA A4 c16 [ \grd a8. ] |
+                  \grg c8. [ e16 \gra e8. f16 ] \dblA A4~A8. [ e16] |
+                  \grg f16 [ A8.  e8. c16 ]  \dblb b4 \grG a4 |
+                  \break
+                  \grg c2 \grg d2 |
+                  \grg c2 \grg b2 |
+                  \grg a2 \grg d2 |
+                  \grg a4 e4 \dbld d4 c4 |
+                  \break                  
+                }
+
+}
+
+HighRoadLinton_Thirds = 
+{
+\reelTime
+\defaultTimeSignature
+\repeat volta 2 {
+                  \grg c8. [ e16 \gra e8. f16 ] \dblA A4~A8. [ e16] |
+                  \hdblg g4 f16 [ e8. ]  \dblA A4 c16 [ \grd a8. ] |
+                  \grg c8. [ e16 \gra e8. f16 ] \dblA A4~A8. [ e16] |
+                  \grg f16 [ A8.  e8. c16 ]  \dblb b4 \grG a4 |
+                  \break
+                  \grg c2 \grg a2 |
+                  \grg a2 \grg d2 |
+                  \grg c2 \grg a2 |
+                  \grg a4 e4 \dbld d4 c4 | 
+                  \break                  
+                }
+
+}
+
+
+
+SleepyMaggie_Round =
+{
+\reelTime
+\defaultTimeSignature
+\bar ".|:"
+\repeat volta 2 {
+                  \dble e4 \grg a8 [ A8 ] e8 [ d8 \grg b8 d8 ] |
+                  \dble e4 \hdblg g4  \grA b8 [ G8 \grg b8 d8 ] |
+                  \dble e4 \grg a8 [ A8 ] e8 [ d8 \grg b8 d8 ] |
+                  \grg e8 [ f8 \grA g8 e8 ] \grg d8 [ G8 \grg b8 d8 ] |
+                  \break
+                }
+\repeat volta 2 {
+                  \grg e8 [ a8 \grg a8 \grd a8] \grg e8 [ a8 \grg b8 d8 ] |
+                  \grg e8 [ a8 \grg a8 \grd a8] \grg b8 [ G8 \grg b8 d8] |
+                  \grg e8 [ a8 \grg a8 \grd a8] \grg e8 [ a8 \grg b8 d8 ] | 
+                  \grg e8 [ f8 \grA g8 e8 ] \grg d8 [ G8 \grg b8 d8 ] | 
+                  \break
+               }
+}
+
+
+SleepyMaggie-Pointed = 
+{
+\reelTime
+\defaultTimeSignature
+% \set Score.tempoHideNote = ##t
+% \tempo 4 = 140
+\bar ".|:"
+\repeat volta 2 {
+                  \dble e4 \grg a8. [ A16 ] e8. [ d16 \grg b16 d8. ] |
+                  \dble e4 \hdblg g4  b16 [ \grd G8. \grg b16 d8. ] |
+                  \dble e4 \grg a8. [ A16 ] e8. [ d16 \grg b16 d8. ] |
+                  \grg e8. [ f16 \grA g8. e16 ] \grg d8. [ G16 \grg b16 d8. ] |
+                  \break
+                }
+\repeat volta 2 {
+                  \grg e8. [ a16 \grg a16 \grd a8.] \grg e8. [ a16 \grg b16 d8. ] |
+                  \grg e8. [ a16 \grg a16 \grd a8.] \grg b16 [ G8. \grg b16 d8.] |
+                  \grg e8. [ a16 \grg a16 \grd a8.] \grg e8. [ a16 \grg b16 d8. ] | 
+                  \grg e8. [ f16 \grA g8. e16 ]  \grg d8. [ G16 \grg b16 d8. ] | \bar ":|.-.|"                
+               }
+  \alternative {                 
+                 { \set Score.repeatCommands = #'((volta "2") ) 
+                   \grg e8~e8~e8 s2 s8  | \break 
+                   \set Score.repeatCommands = #'((volta #f))
+                 }               
+               }
+}
+
+
+SleepyMaggie-Pointed_Harmony = 
+{
+\reelTime
+\defaultTimeSignature
+% \set Score.tempoHideNote = ##t
+% \tempo 4 = 140
+%\bar ".|:"
+\repeat volta 2 {
+                  \dble e4^\markup {Harmonies 2nd time only.}  \grg a8. [ A16 ] e8. [ d16 \grg b16 d8. ] |
+                  \dble e4 \hdblg g4 b16 [ \grd G8. \grg b16 d8. ] |
+                  \dble e4 \grg a8. [ A16 ] e8. [ d16 \grg b16 d8. ] |
+                  \grg e8. [ f16 \grA g8. e16 ] \grg d8. [ G16 \grg b16 d8. ] |
+                  \break
+                }
+\repeat volta 2 {
+                 \grg e2 \grg e4 g4 |
+                 \grg e2 \grg d2 |
+                 \grg e2 \grg e4 g4 |
+                 \grA a4 \grg b4 \grg G2 |
+                 | %\bar ":|.-.|"                
+               }
+  \alternative {                 
+                 { \set Score.repeatCommands = #'((volta "2") ) 
+                   \grg a8~a8~a8 s2 s8  | \break 
+                   \set Score.repeatCommands = #'((volta #f))
+                 }               
+               }
+}
+
+
+
+
+
 %***************  Old stuff below ******************
+
 
 
 AthollHighlanders = 
@@ -656,6 +803,12 @@ MaidsOfTheBlackGlenTwo =
                 \bar "|.-b"
                 \break
 }
+
+
+
+
+
+
 
 Bush_Reel = 
 {
