@@ -2,8 +2,8 @@
 
 
 \include "bagpipe.ly" 
-\include "/home/ben/workspace/BagpipeTunes_Working/TuneBook_ly/BWB_Bagpipe.ly"
-\include "/home/ben/workspace/BagpipeTunes_Working/TuneBook_ly/score_settings.ly"
+\include "/home/ben/workspace/GitHub_BagPipeTunes/include/BWB_Bagpipe.ly"
+\include "/home/ben/workspace/GitHub_BagPipeTunes/include/score_settings.ly"
 
 filename = "~/AuldSwordsLament_Kilberry.ly"
 tunesetVersion = "Version 1"
@@ -105,12 +105,12 @@ varI =
                     \break
                   }
                     A8. [ a16 ] \grg e8. [ \grg a16 ] \grA g8. [ \gre a16 ] \grg d8. [ \gre a16 ] |
-                    \grg e8. [ \grg c16 ] \grg c8. [ \gre a16 ] \grg b8. [ \gre a16 ] \grg d8. [ \gre a16 ] |
+                    \grg e8. [ \gre a16 ] \grg c8. [ \gre a16 ] \grg b8. [ \gre a16 ] \grg d8. [ \gre a16 ] |
                     A8. [ a16 ] \grg e8. [ \grg a16 ] \grA g8. [ \gre a16 ] \grg d8. [ \gre a16 ] |  
                     \grg e8. [ \grg a16 ]  \grg b8. [ \gre a16 ] \grg a8. [  \gre a16 ] \grg a8. [  \gre a16 ] |
                     \break 
                     A8. [ a16 ] \grg e8. [ \grg a16 ] \grA g8. [ \gre a16 ] \grg d8. [ \gre a16 ] |
-                    \grg e8. [ \grg c16 ] \grg c8. [ \gre a16 ] \grg b8. [ \gre a16 ] \grg d8. [ \gre a16 ] |
+                    \grg e8. [ \gre a16 ] \grg c8. [ \gre a16 ] \grg b8. [ \gre a16 ] \grg d8. [ \gre a16 ] |
                     \grg c8. [ \gre a16 ] \grg a8. [ \gre a16 ] \grg b8. [ \gre a16 ] \grg e8. [ \gre a16 ] |
                     \grA g8. [ \grA a16 ]  \grg b8. [ \gre a16 ]  \grg a8. [ \gre a16 ] \grg a8. [ \gre a16 ] | \bar "|.-.|:"
                     \break
@@ -182,7 +182,7 @@ Criunnludh =
 }
 
 \book {
-        \bookOutputName "LamentForTheOldSword" 
+        \bookOutputName "AuldSwordsLament_Kilberry" 
         \header { 
           title = "Lament for the old Sword"
           subtitle = ""
@@ -348,6 +348,7 @@ Criunnludh =
     %system-separator-markup = \slashSeparator 
   }
 }
+
 
 \book {
   \bookOutputName "LamentForTheOldSword_Landscape"   
