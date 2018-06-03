@@ -210,7 +210,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 }
 
 
-%{
+
 \book {
   \bookOutputName "APB-2018-Gr4-Medley-Landscape-Part-B"   
   \score {
@@ -301,9 +301,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "Traditional"
         }
 }
-
-
-
 %{
 \score {
 	\new GrandStaff <<
@@ -322,7 +319,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "Traditional"
         }
 }
-
+%}
 \score {
 	\new GrandStaff <<
 		\new Staff = "GHB" <<
@@ -371,7 +368,6 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
         %page-breaking = #ly:optimal-breaking
   }
 }
-%}
 
 
 
