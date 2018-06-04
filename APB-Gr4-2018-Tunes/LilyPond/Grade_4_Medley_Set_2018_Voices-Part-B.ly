@@ -97,7 +97,7 @@ FleeTheGlen =
                     \bar ".|:"
                     \grg f8 ([ b8  b8 ]) \grg b8 [ c8 d8 ] |
                     \grg c4 e8 \grg e8 [ c8 e8 ] |
-                    \grg f8 [ b8 \grG b8 ] \grg b8 [ c8 d8 ] | 
+                    \grg f8 [ b8 b8 ] \grg b8 [ c8 d8 ] | 
                     \grg a4 \grd c8~c8 e4 |
                     \break
                     \grg f8 ([ b8 b8 ]) \grg b8 [ c8 d8 ] |
@@ -107,13 +107,13 @@ FleeTheGlen =
                     \break
                     \grg f8 (f8 f8) \grg f8 [ e8 d8 ] |
                     \grg e4 \gra e8~e8 [ d8 c8 ] |
-                    \grg d8 [ e8 d8 ] \grg d8 [ c8 b8 ] |
+                     \grg d8 (d8 d8) \grg d8 [ c8 b8 ] |
                     \grg c4.~c8 [ d8 e8 ] |
                     \break
   }
   \alternative {        
     {
-      \grg f4.   \grg e4 c8 |
+      \grg f4.   \grg e4. |
       \grg d8 [ e8 d8 ] \grg c4. |
       \grg d8 [ c8 b8 ] \grg b8 [ c8 d8 ] |
       \grg c4 \gre b8~b4.   | 
@@ -149,7 +149,7 @@ FleeTheGlen_Harmony =
   \repeat volta 2 {
                     \grg f8 ([ b8 b8 ]) \grg b8 [ c8 d8 ] |
                     \grg c4 e8 \grg e8 [ c8 e8 ] |
-                    \grg f8 [ b8 \grG b8 ] \grg b8 [ c8 d8 ] | 
+                    \grg f8 [ b8 b8 ] \grg b8 [ c8 d8 ] | 
                     \grg a4 \grd c8~c8 e4 |
                     \break
                     \grg f8 ([ b8 b8 ]) \grg b8 [ c8 d8 ] |
